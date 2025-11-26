@@ -2,10 +2,10 @@
 
 /* --- Custom Color Variables --- */
 :root {
-    --color-primary: #800020; /* Deep Burgundy for accents/buttons/footer */
-    --color-secondary: #A0968A; /* Dark Khaki/Taupe for Navbar/accents */
-    --color-light: #FAF8F5; /* Light Beige/Off-white for Body background */
-    --color-text: #333333; /* Dark charcoal text */
+    --color-primary: #800020; 
+    --color-secondary: #A0968A; 
+    --color-light: #FAF8F5; 
+    --color-text: #333333; 
 }
 
 /* Apply colors and font across the entire site */
@@ -17,17 +17,16 @@ body {
 
 /* --- Fixed Footer Setup --- */
 .content-wrap {
-    padding-bottom: 60px; /* Space for the fixed footer to prevent content overlap */
+    padding-bottom: 60px; 
 }
 
-/* User's provided fixed footer styles, updated with new colors */
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: var(--color-primary); /* Burgundy for footer background */
-    color: var(--color-light); /* Light text on dark background */
+    background-color: var(--color-primary); 
+    color: var(--color-light); 
     text-align: center;
     padding: 10px;
     font-size: 0.8rem;
@@ -44,21 +43,21 @@ body {
 }
 
 .navbar-dark.bg-dark {
-    background-color: var(--color-secondary) !important; /* Dark Khaki/Taupe for Navbar */
+    background-color: var(--color-secondary) !important; 
 }
 .btn-primary {
     background-color: var(--color-primary);
     border-color: var(--color-primary);
 }
 .btn-primary:hover {
-    background-color: #590016; /* Slightly darker burgundy on hover */
+    background-color: #590016; 
     border-color: #590016;
 }
 .text-primary {
     color: var(--color-primary) !important;
 }
 
-/* Custom Card Style for Visual Appeal */
+
 .custom-card {
     transition: transform 0.3s ease;
     box-shadow: 0 4px 8px rgba(0,0,0,.05);
@@ -84,7 +83,7 @@ body {
             background-color: #f9f9f9;
         }
         .book-list li:hover {
-            background-color: var(--color-primary-light); /* Assuming a light primary color variable */
+            background-color: var(--color-primary-light); 
         }
         .book-title {
             font-weight: bold;
@@ -99,7 +98,7 @@ body {
             font-weight: bold;
             color: var(--color-primary);
             margin-right: 1.5rem;
-            width: 30px; /* fixed width for numbering */
+            width: 30px;
             text-align: right;
         }
         .list-item-content {
@@ -124,7 +123,7 @@ body {
         }
         .feature-icon {
             font-size: 2.5rem;
-            color: var(--color-primary); /* Assuming a primary color variable */
+            color: var(--color-primary); 
             margin-bottom: 1rem;
         }
         .about-section {
@@ -138,7 +137,7 @@ body {
             border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: transform 0.2s;
-            border: 1px solid var(--color-primary-light); /* Assuming a CSS variable for site colors */
+            border: 1px solid var(--color-primary-light); 
         }
         .custom-card:hover {
             transform: translateY(-5px);
@@ -147,12 +146,12 @@ body {
         .card-img-top {
             border-top-left-radius: 12px;
             border-top-right-radius: 12px;
-            height: 180px; /* Standardized height for genre images */
+            height: 180px; 
             object-fit: cover;
         }
         .feature-icon {
             font-size: 2.5rem;
-            color: var(--color-primary); /* Assuming a primary color variable */
+            color: var(--color-primary); 
             margin-bottom: 1rem;
         }
         .about-section {
