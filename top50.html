@@ -1,0 +1,452 @@
+<!-- DEVELOPER: Arghavan Katebi, IS117-001, Fall 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Guide - Top 50 Books</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Link to the custom CSS for styling and colors -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="content-wrap">
+        <div class="container-fluid">
+            
+            <!-- Navbar: Top 50 Books link is active -->
+            <div class="row">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark col-12">
+                   <a class="navbar-brand ms-3" href="index.html"><img src="images/logo.png" alt="Book Guide Logo" height="70"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="genres.html" id="genresDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Genres
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="genresDropdown">
+                                    <li><a class="dropdown-item " href="genres.html">Art</a></li>
+                                    <li><a class="dropdown-item " href="genres.html">Biography</a></li>
+                                    <li><a class="dropdown-item " href="genres.html">Business</a></li>
+                                    <li><a class="dropdown-item " href="genres.html">Classics</a></li>
+                                    <li><a class="dropdown-item active" href="genres.html">Explore All Genres</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <!-- Top 50 Books is now active -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="top50.html">Top 50 Books</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-3">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            
+            <!-- Main Content Section -->
+            <main class="container my-5">
+                
+                <section class="text-center mb-5">
+                    <h1 class="display-4 text-primary mb-3">Top 50 Most Famous Books</h1>
+                    <p class="lead fw-bold">These are 50 of the most widely read, influential, and beloved books from around the world. Start checking off your reading list today!</p>
+                </section>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-md-12">
+                        <ul class="book-list bg-white rounded shadow-sm">
+                            
+                            <!-- Books 1-22 from your partial list -->
+                            <li>
+                                <span class="book-number">1</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">To Kill a Mockingbird</span>
+                                    <span class="book-author">Harper Lee</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">2</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">1984</span>
+                                    <span class="book-author">George Orwell</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">3</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Pride and Prejudice</span>
+                                    <span class="book-author">Jane Austen</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">4</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Great Gatsby</span>
+                                    <span class="book-author">F. Scott Fitzgerald</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">5</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Moby-Dick</span>
+                                    <span class="book-author">Herman Melville</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">6</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Catcher in the Rye</span>
+                                    <span class="book-author">J.D. Salinger</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">7</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Lord of the Rings</span>
+                                    <span class="book-author">J.R.R. Tolkien</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">8</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Harry Potter and the Sorcerer’s Stone</span>
+                                    <span class="book-author">J.K. Rowling</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">9</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Hobbit</span>
+                                    <span class="book-author">J.R.R. Tolkien</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">10</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Bible</span>
+                                    <span class="book-author">Various Authors</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">11</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">War and Peace</span>
+                                    <span class="book-author">Leo Tolstoy</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">12</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Crime and Punishment</span>
+                                    <span class="book-author">Fyodor Dostoevsky</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">13</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Odyssey</span>
+                                    <span class="book-author">Homer</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">14</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Iliad</span>
+                                    <span class="book-author">Homer</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">15</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Brave New World</span>
+                                    <span class="book-author">Aldous Huxley</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">16</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Diary of a Young Girl</span>
+                                    <span class="book-author">Anne Frank</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">17</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Alchemist</span>
+                                    <span class="book-author">Paulo Coelho</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">18</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Don Quixote</span>
+                                    <span class="book-author">Miguel de Cervantes</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">19</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Les Misérables</span>
+                                    <span class="book-author">Victor Hugo</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">20</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Jane Eyre</span>
+                                    <span class="book-author">Charlotte Brontë</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">21</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Wuthering Heights</span>
+                                    <span class="book-author">Emily Brontë</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">22</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Adventures of Huckleberry Finn</span>
+                                    <span class="book-author">Mark Twain</span>
+                                </span>
+                            </li>
+
+                            <!-- Completed List: Books 23-50 -->
+                            <li>
+                                <span class="book-number">23</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Grapes of Wrath</span>
+                                    <span class="book-author">John Steinbeck</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">24</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Of Mice and Men</span>
+                                    <span class="book-author">John Steinbeck</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">25</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Kite Runner</span>
+                                    <span class="book-author">Khaled Hosseini</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">26</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Da Vinci Code</span>
+                                    <span class="book-author">Dan Brown</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">27</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Hunger Games</span>
+                                    <span class="book-author">Suzanne Collins</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">28</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Chronicles of Narnia (The Lion, the Witch and the Wardrobe)</span>
+                                    <span class="book-author">C.S. Lewis</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">29</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Alice’s Adventures in Wonderland</span>
+                                    <span class="book-author">Lewis Carroll</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">30</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Charlotte’s Web</span>
+                                    <span class="book-author">E.B. White</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">31</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Handmaid’s Tale</span>
+                                    <span class="book-author">Margaret Atwood</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">32</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Fahrenheit 451</span>
+                                    <span class="book-author">Ray Bradbury</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">33</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Shining</span>
+                                    <span class="book-author">Stephen King</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">34</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Color Purple</span>
+                                    <span class="book-author">Alice Walker</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">35</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Beloved</span>
+                                    <span class="book-author">Toni Morrison</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">36</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Road</span>
+                                    <span class="book-author">Cormac McCarthy</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">37</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Fault in Our Stars</span>
+                                    <span class="book-author">John Green</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">38</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Life of Pi</span>
+                                    <span class="book-author">Yann Martel</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">39</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Girl with the Dragon Tattoo</span>
+                                    <span class="book-author">Stieg Larsson</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">40</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Memoirs of a Geisha</span>
+                                    <span class="book-author">Arthur Golden</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">41</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Little Women</span>
+                                    <span class="book-author">Louisa May Alcott</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">42</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">A Tale of Two Cities</span>
+                                    <span class="book-author">Charles Dickens</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">43</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Count of Monte Cristo</span>
+                                    <span class="book-author">Alexandre Dumas</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">44</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Little Prince</span>
+                                    <span class="book-author">Antoine de Saint-Exupéry</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">45</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Where the Sidewalk Ends</span>
+                                    <span class="book-author">Shel Silverstein</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">46</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">A Wrinkle in Time</span>
+                                    <span class="book-author">Madeleine L'Engle</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">47</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">The Giver</span>
+                                    <span class="book-author">Lois Lowry</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">48</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">One Hundred Years of Solitude</span>
+                                    <span class="book-author">Gabriel García Márquez</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">49</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Frankenstein</span>
+                                    <span class="book-author">Mary Shelley</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="book-number">50</span>
+                                <span class="list-item-content">
+                                    <span class="book-title">Doctor Zhivago</span>
+                                    <span class="book-author">Boris Pasternak</span>
+                                </span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </main>
+
+        </div>
+    </div>
+    
+    <!-- Fixed Footer -->
+    <footer class="footer page-footer font-small">
+        <div class="container text-center">
+            <div class="row">
+                <span class="py-3" >&copy; Arghavan Katebi, 2025 | <a href="#" >Terms Of Use</a> | <a href="#">Privacy Statement</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

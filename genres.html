@@ -1,0 +1,293 @@
+<!-- DEVELOPER: Arghavan Katebi, IS117-001, Fall 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Guide - Genres</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Link to the custom CSS for styling and colors -->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="content-wrap">
+        <div class="container-fluid">
+            
+            <!-- Navbar: Corrected to make About Us a separate link -->
+            <div class="row">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark col-12">
+                    <a class="navbar-brand ms-3" href="index.html"><img src="images/logo.png" alt="Book Guide Logo" height="70"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="genres.html" id="genresDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Genres
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="genresDropdown">
+                                    <li><a class="dropdown-item " href="genres.html">Art</a></li>
+                                    <li><a class="dropdown-item " href="genres.html">Biography</a></li>
+                                    <li><a class="dropdown-item " href="genres.html">Business</a></li>
+                                    <li><a class="dropdown-item " href="genres.html">Classics</a></li>
+                                    <li><a class="dropdown-item active" href="genres.html">Explore All Genres</a></li>
+                                </ul>
+                            </li>
+                            <!-- About Us is now a separate main nav item -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="top50.html">Top 50 Books</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-3">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            
+            <!-- Main Content Section (Genre Cards) -->
+            <main class="container my-5">
+                <section class="text-center mb-5">
+                    <h1 class="display-5 text-primary">Explore Genres</h1>
+                    <p class="lead">At Book Guide, we make it easy for readers to understand what makes every genre special. Whether you’re drawn to thrilling mysteries, heartwarming romances, or thought-provoking nonfiction, there’s a story waiting for you.</p>
+                </section>
+
+                <div class="row justify-content-center g-4">
+                    
+                    <!-- Genre Card: Art -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/E0E0E0/333333?text=Art" class="card-img-top img-fluid" alt="Art Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Art</h5>
+                                <p class="card-text">Explore the world of creativity through books on painting, design, photography, and artistic expression that inspire imagination and skill.</p>
+                                <a href="art.html" class="btn btn-primary btn-sm">Browse Art</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Biography -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/F5CBA7/6E2C00?text=Biography" class="card-img-top img-fluid" alt="Biography Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Biography</h5>
+                                <p class="card-text">Read the real-life stories of inspiring people — from leaders and artists to everyday heroes who changed the world.</p>
+                                <a href="biography.html" class="btn btn-primary btn-sm">Browse Biography</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Business -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/D5F5E3/1E8449?text=Business" class="card-img-top img-fluid" alt="Business Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Business</h5>
+                                <p class="card-text">Learn about leadership, innovation, and success through stories and insights from business experts and entrepreneurs.</p>
+                                <a href="business.html" class="btn btn-primary btn-sm">Browse Business</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Classics -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/BB8FCE/4A235A?text=Classics" class="card-img-top img-fluid" alt="Classics Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Classics</h5>
+                                <p class="card-text">Timeless novels and literary masterpieces that have shaped cultures, ideas, and generations of readers.</p>
+                                <a href="classics.html" class="btn btn-primary btn-sm">Browse Classics</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Comics -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/F9E79F/9A7D0A?text=Comics" class="card-img-top img-fluid" alt="Comics Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Comics</h5>
+                                <p class="card-text">Dive into colorful stories told through art — from superheroes to graphic novels full of humor, emotion, and adventure.</p>
+                                <a href="comics.html" class="btn btn-primary btn-sm">Browse Comics</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Crime -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/5D6D7E/F4F6F7?text=Crime" class="card-img-top img-fluid" alt="Crime Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Crime</h5>
+                                <p class="card-text">Suspenseful tales of mystery, justice, and moral dilemmas — where truth hides behind every clue.</p>
+                                <a href="crime.html" class="btn btn-primary btn-sm">Browse Crime</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Fantasy -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/A93226/FADBD8?text=Fantasy" class="card-img-top img-fluid" alt="Fantasy Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Fantasy</h5>
+                                <p class="card-text">Enter magical worlds filled with dragons, heroes, and epic adventures beyond imagination.</p>
+                                <a href="fantasy.html" class="btn btn-primary btn-sm">Browse Fantasy</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Fiction (Updated from prior request) -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/800020/FAF8F5?text=Fiction" class="card-img-top img-fluid" alt="Fiction Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Fiction</h5>
+                                <p class="card-text">A mix of stories from every walk of life — emotional, dramatic, or inspiring tales that reflect human experiences.</p>
+                                <a href="fiction.html" class="btn btn-primary btn-sm">Browse Fiction</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: History -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/B0B0B0/505050?text=History" class="card-img-top img-fluid" alt="History Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">History</h5>
+                                <p class="card-text">Step back in time and explore the events, people, and cultures that shaped our world.</p>
+                                <a href="history.html" class="btn btn-primary btn-sm">Browse History</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Horror -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/34495E/FDFEFE?text=Horror" class="card-img-top img-fluid" alt="Horror Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Horror</h5>
+                                <p class="card-text">Dark and thrilling tales designed to keep you on edge — stories of fear, the unknown, and the supernatural.</p>
+                                <a href="horror.html" class="btn btn-primary btn-sm">Browse Horror</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Mystery -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/1E8449/F4F6F7?text=Mystery" class="card-img-top img-fluid" alt="Mystery Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Mystery</h5>
+                                <p class="card-text">Uncover secrets, follow clues, and solve puzzles in gripping stories that challenge your mind.</p>
+                                <a href="mystery.html" class="btn btn-primary btn-sm">Browse Mystery</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Nonfiction (Updated from prior request) -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/A0968A/800020?text=Nonfiction" class="card-img-top img-fluid" alt="Nonfiction Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Nonfiction</h5>
+                                <p class="card-text">Real stories, facts, and ideas that teach, inform, and broaden your understanding of the world.</p>
+                                <a href="nonfiction.html" class="btn btn-primary btn-sm">Browse Nonfiction</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Psychology -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/85C1E9/2874A6?text=Psychology" class="card-img-top img-fluid" alt="Psychology Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Psychology</h5>
+                                <p class="card-text">Explore how the human mind works — from emotions and behavior to decision-making and self-discovery.</p>
+                                <a href="psychology.html" class="btn btn-primary btn-sm">Browse Psychology</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Religion -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/F4D03F/B7950B?text=Religion" class="card-img-top img-fluid" alt="Religion Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Religion</h5>
+                                <p class="card-text">Books exploring faith, spirituality, and belief systems from cultures around the world.</p>
+                                <a href="religion.html" class="btn btn-primary btn-sm">Browse Religion</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Romance -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/E8DAEF/7D3C98?text=Romance" class="card-img-top img-fluid" alt="Romance Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Romance</h5>
+                                <p class="card-text">Stories of love, heartbreak, and connection that explore the beauty and complexity of human relationships.</p>
+                                <a href="romance.html" class="btn btn-primary btn-sm">Browse Romance</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Science Fiction -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/2C3E50/EAECEE?text=Sci-Fi" class="card-img-top img-fluid" alt="Science Fiction Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Science Fiction</h5>
+                                <p class="card-text">Imaginative stories about the future, technology, space, and the possibilities of the unknown.</p>
+                                <a href="scifi.html" class="btn btn-primary btn-sm">Browse Sci-Fi</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Card: Thriller -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                        <div class="card h-100 custom-card text-center">
+                            <img src="https://placehold.co/400x180/B03A2E/F9EBEA?text=Thriller" class="card-img-top img-fluid" alt="Thriller Books">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Thriller</h5>
+                                <p class="card-text">A suspenseful, fast-paced story full of danger, tension, and twists.</p>
+                                <a href="thriller.html" class="btn btn-primary btn-sm">Browse Thriller</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+
+        </div>
+    </div>
+    
+    <!-- Fixed Footer -->
+    <footer class="footer page-footer font-small">
+        <div class="container text-center">
+            <div class="row">
+                <span class="py-3" >&copy; Arghavan Katebi, 2025 | <a href="#">Terms Of Use</a> | <a href="#">Privacy Statement</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
